@@ -8,7 +8,7 @@ if (!array_key_exists('action', $_REQUEST)) {
     return;
 }
 
-$channel = $_REQUEST['channel'];   // Channel username
+$channel = $_REQUEST['The__deathwing'];   // Channel username
 $file = "{$channel}.watchtime.json";    // File with watchtime
 
 // Open json and collect data
